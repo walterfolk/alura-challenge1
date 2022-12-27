@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main class="container">
+        <div class="titulo">
+            <h1>¡Encriptador de texto!</h1>
+        </div>
+        <div class="cajas">
+            <div class="caja1">
+                <textarea class="borde" name="area" id="texto" cols="30" rows="20"
+                    placeholder="¡Ingrese el texto aqui! &#10 Solo letras en minúsculas sin acentos"></textarea>
+            </div>
+            <div class="botonera">
+                <button id="encriptar" class="btn-enc botones"><span>Encriptar</span></button>
+                <button id="desencriptar" class="btn-denc botones"><span>Desencriptar</span></button>
+                <button id="borrar" class="btn-borrar botones"><span>Borrar</span></button>
+                <button id="copiar" class="btn-copy botones"><span>Copiar</span></button>
+            </div>
+            <div class="caja2">
+                <textarea class="borde" name="area" id="textoEncriptado" cols="30" rows="20" placeholder=""></textarea>
+                <!-- <img src="/images/undraw_security_re_a2rk.svg" id="imagen" alt="spyimage"> -->
+
+            </div>
+
+        </div>
+    </main>
+    
+    <script src="main.js"></script>
+</body>
+
+</html>
