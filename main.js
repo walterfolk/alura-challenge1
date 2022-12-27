@@ -4,7 +4,7 @@ const copiar = document.getElementById('copiar');
 const pegar = document.getElementById('pegar');
 const borrar = document.getElementById('borrar');
 const resultado = document.getElementById('textoEncriptado');
-const imagen = document.getElementById('imagen');
+
 
 function encrypt() {
   let string = document.getElementById('texto').value;
