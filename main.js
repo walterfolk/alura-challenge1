@@ -24,7 +24,6 @@ function encrypt() {
             : x
 )
   .join("");
-  imagen.style.display = 'none'
   limpiar();
 }
 
@@ -38,7 +37,6 @@ function decrypt() {
   texto = texto.replaceAll("ober", "o");
   texto = texto.replaceAll("ufat", "u")
   limpiar()
-  imagen.style.display = 'none'
   return resultado.value = texto
 }
 
@@ -52,14 +50,13 @@ function copy() {
   resultado.value = "";
   document.getElementById("texto").placeholder = "Ingrese el texto aqui \n Solo letras en minúsculas sin acentos";
   resultado.placeholder = "Texto copiado"
-  imagen.style.display = 'inline'
+  
 }
 
 function borrarTodo() {
   document.getElementById("texto").placeholder = "Ingrese el texto aqui \n Solo letras en minúsculas sin acentos";
   resultado.placeholder = "";
   resultado.value = "";
-  imagen.style.display = 'inline'
   limpiar();
 }
 
